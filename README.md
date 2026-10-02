@@ -43,7 +43,7 @@ Exploratory analysis of a February 2026 ecommerce order dataset, focused on four
 |---|---|
 | `Analisis_Ventas_Feb2026_CesarRabago.pptx` | Executive presentation (12 slides) |
 | `Analisis_Ventas_Feb2026.ipynb` | Notebook with the full technical analysis |
-| `ecommerce_orders_feb2026.csv` | Dataset (if data policies allow) |
+| `ecommerce_orders_feb2026.csv` | Dataset |
 
 ## Stack
 
