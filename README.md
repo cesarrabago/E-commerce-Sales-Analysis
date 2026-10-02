@@ -8,7 +8,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-📊 **[Full presentation (PDF, 12 slides)](Analisis_Ventas_Feb2026_CesarRabago.pdf)**
+📊 **[Full presentation (PDF, 12 slides)](Sales_Analysis_Feb2026.pdf)**
 
 ---
 
@@ -24,7 +24,7 @@ find what the commercial and operations teams should do about it.
 
 Revenue is evenly split between the two markets. Cancellations are not.
 
-![Revenue and cancellation rate, US vs MX](images/market_us_vs_mx.png)
+![Revenue and cancellation rate, US vs MX](market_us_vs_mx.png)
 
 The US and MX markets generate near-identical revenue (~$8.4K vs $8.2K USD, a
 3% gap), but **MX cancels 2.5× more often** — 10.9% against 4.4%. Whatever is
@@ -32,7 +32,7 @@ driving that gap, it is not demand.
 
 Breaking cancellations down by payment method narrows where to look:
 
-![Cancellation rate by payment method and fulfillment mix](images/cancellation_by_payment.png)
+![Cancellation rate by payment method and fulfillment mix](cancellation_by_payment.png)
 
 In MX, **CreditCard (14.2%) and Installments (12.8%)** carry roughly three times
 the cancellation rate of GiftCertificate (5.0%). The same two methods in the US
@@ -43,7 +43,7 @@ or product — but see [Limitations](#limitations) before treating it as settled
 
 ## Where the money is
 
-![Estimated revenue and volume by product category](images/category_performance.png)
+![Estimated revenue and volume by product category](category_performance.png)
 
 | Category | Revenue (USD) | Lines | Revenue per line |
 |---|---:|---:|---:|
@@ -157,10 +157,10 @@ pushed:
 
 | File | What it is |
 |---|---|
-| `Analisis_Ventas_Feb2026_CesarRabago.pdf` | Executive presentation, 12 slides |
+| `Sales_Analysis_Feb2026.pdf` | Executive presentation, 12 slides |
 | `Analisis_Ventas_Feb2026.ipynb` | Full technical analysis |
 | `ecommerce_orders_feb2026.csv` | Source dataset |
-| `images/` | Slide exports used in this README |
+| `*.png` | Slide exports used in this README |
 
 ## Stack
 
